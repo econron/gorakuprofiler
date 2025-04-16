@@ -1,10 +1,10 @@
 # gorakuprofiler
 
-I want a SIMPLE USE tool.
+I want a simple-to-use tool.
 
-I don't want to think or remenber "HOW TO USE".
+I don't want to have to think about or remember how to use it.
 
-I JUST WANT TO PROFILE EASILY.
+I just want to be able to profile easily.
 
 # INSTALL
 
@@ -29,7 +29,7 @@ func sum() int32 {
 }
 
 func main() {
-  // This is a example use. JUST COPY AND PASTE THIS.
+  // This is an example use. JUST COPY AND PASTE THIS.
 	fcpu, err := gorakuprofiler.StartCPU()
 	if err != nil {
 		log.Fatal("failed to init goraku cpu profiler. ", err)
@@ -40,7 +40,7 @@ func main() {
 	}
 	gorakuprofiler.StopCPU(fcpu)
 	gorakuprofiler.StopMemory(fmem)
-  // This is end.
+  // This is the end.  JUST COPY AND PASTE THIS.
 
 	ret := sum()
 	fmt.Println(ret)
