@@ -38,5 +38,10 @@ func main() {
 
 	ret := sum()
 	fmt.Println(ret)
+
+  // By using these methods, you can execute the pprof command and view the results in a browser.
+  // However, you can typically use only one (CPU or memory) at a time.
+  // gorakuprofiler.ShowCPU()
+	gorakuprofiler.ShowMemory()
 }
 ```
