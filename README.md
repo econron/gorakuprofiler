@@ -6,6 +6,12 @@ I don't want to think or remenber "HOW TO USE".
 
 I JUST WANT TO PROFILE EASILY.
 
+# INSTALL
+
+```sh
+go get -u github.com/econron/gorakuprofiler
+```
+
 # HOW TO USE
 
 ```go
