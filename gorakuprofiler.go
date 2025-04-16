@@ -61,7 +61,7 @@ func startPprofServer(path string, port string) error {
 	cmd := exec.Command("go", "tool", "pprof", fmt.Sprintf("-http=%s", listenPort), path)
 	cmd.Stdout = os.Stdout
 	cmd.Stderr = os.Stderr
-	err := cmd.Start()
+	err := cmd.Run()
 	if err != nil {
 		return err
 	}
