@@ -26,7 +26,7 @@ func StopCPU(fCpu *os.File) {
 	defer pprof.StopCPUProfile()
 }
  
-func ShowCPU(port string) error {
+func ShowCPU() error {
 	if err := startPprofServer("cpu.prof", "8081"); err != nil {
 		return err
 	}
